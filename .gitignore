@@ -1,0 +1,9 @@
+# Environment secrets — excluded from repo
+.env
+*.key
+*.pem
+*secret*
+
+# OS junk
+.DS_Store
+Thumbs.db
