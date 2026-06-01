@@ -1,0 +1,10 @@
+- [Project structure](project_structure.md) — 6 sub-folder (Zaeinstore, admin zaeinstore, adminweb1, bottelegram, drive, webstream); semua folder kecuali Zaeinstore & admin-zaeinstore adalah git repo terpisah
+- [GitHub repos](github_repos.md) — owner shaanieel; repo: drive, adminweb1, bottelegram, webstream
+- [Codex sessions location](codex_sessions.md) — riwayat percakapan codex tersimpan di C:\Users\shole\.codex\sessions\YYYY\MM\DD\rollout-*.jsonl
+- [User language](user_language.md) — user berkomunikasi dalam bahasa Indonesia informal/santai, balas dengan gaya yang sama
+- [Tooling notes](tooling.md) — gh CLI v2.92.0 terpasang, login sebagai shaanieel; PATH bash perlu prepend `/c/Program Files/GitHub CLI`
+- [PR workflow](pr_workflow.md) — setiap commit baru langsung dibuatkan PR; user hanya klik merge di GitHub UI
+- [Bot setup](bot_setup.md) — cara start bot Telegram lokal: start_bot.bat, port 8787, file penting (.env, secrets/, data/jobs.json)
+- [Drive web tunnel](drive_web_tunnel.md) — drive web Cloudflare Worker reach bot via Cloudflare Tunnel; update BOT_API_BASE pakai wrangler secret put
+- [Subtitle filter](subtitle_filter.md) — auto-pilih sub: non-forced menang, lalu size terbesar; lokasi player4me_auto_subs.py:387-407
+- [API provider Hidepulsa](api_provider.md) — third-party Anthropic API: base URL https://ai.hidepulsa.com/v1; model kr/claude-opus-4.7, kr/claude-haiku-4.5; support tool use
